@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/GlucoSwap.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tellisrolwin.GlucoSwap"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8817fbdc-0d4b-4eea-9391-91d6d81003d7"
+      }
     }
   }
 }
